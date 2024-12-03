@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #fef8ee;
+}
+
+header{
+    height: 75px;
+    background-color: #e5c486;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    z-index: 2;
+}
+@font-face {
+    font-family:titulo;
+    src: url(./Shrikhand/Shrikhand-Regular.ttf);
+}
+
+header .logotipo{
+    height: 75px;
+    width: 75px;
+}
+
+.sla2{
+    display: flex;
+    margin-left: 0px;
+    margin-top: 0;
+}
+
+ .sla4{
+    width: 75px;
+    height: 75px;
+ }
+
+ #modoTema{
+    color: #0b6363;
+    border-radius: 50px;
+ }
+
+header h2{
+    font-family: titulo;
+    font-size: 1.5rem;
+    color: #311800 ;
+}
+nav ul {
+    list-style: none;
+    list-style-type: none;
+    display: flex;
+    margin-right: 0;
+    justify-content: end;
+}
+
+nav ul li{
+  
+    margin: 0 30px;
+    margin-top: 20px;
+}
+
+header h2{
+    margin-top: 20px;
+}
+
+nav ul li a{
+    color: #754b24;
+    text-decoration: none;
+    font-family: titulo;
+    font-size: 17px;
+}
+nav ul li a:hover{
+    color: #8e5e32;
+    font-family: titulo;
+    font-size: 18px;
+}
+
+
+
+h1{
+    font-family: titulo;
+    color: #754b24;
+    /* text-shadow: 0px 2px 15px #333; */
+    font-size: 2.7rem;
+    text-align: center;
+ }
+
+.home2{
+    width: 20%;
+    height: 50%;
+    display: block;
+    left: 0;
+    margin-top: 200px;
+    margin-left: 180px;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.information1{
+    background-color: #754b24;
+    height: 40%;
+    width: 70%;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 15%;
+}
+
+
+.information11{
+    margin-bottom: 3%;
+}
+ 
+.sla5{
+    display: block;
+    width: 75%;
+    height: 100%;
+    margin-left: 0;
+}
+
+.sla6{
+    margin-right: 5%;  
+    width: 50%;
+}
+
+#information{
+    display: flex;
+    align-items: center;
+}
+
+
+#information .information1 p{
+    font-family:sans-serif;
+    margin: 25px;
+    margin-top: 5%;
+    text-align: justify;
+    color: #e5c486;
+}
+
+
+
+
+
+/* ------------------Gabriel----------------- */
+.carrossel{
+    width: 80%;
+    max-width: 300px;
+    overflow: hidden; 
+    border-radius: 10px;
+    box-shadow: 0 4px 6px #ffffff;
+}
+
+.imagens{
+    display: flex;   
+    transition: transform 0.5s ease-in-out;
+}
+
+.imagens img{
+    width: 100%;
+  
+} 
+
+
+
+/* img{
+    width: 600px;
+} */
+
+.tudo{
+    display: flex;
+    margin: 200px;
+    gap: 300px;
+}
+
+.texto{
+    padding: 7px;
+    gap: 4px;
+    margin: 50px;
+    font-size: 1.7rem;
+}
+
+.column{
+    background-color: #33333396;
+    padding: 20px;
+    text-align: center;
+    flex: 1;
+    margin: 10px;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    margin-right: 300px;
+}
+
+.main-content{
+    display: flex;
+    justify-content:baseline ;
+    margin: 20px;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.sla7 , .sla8{
+    display: block;
+    width: 45%;
+    height: 50%;
+    margin-left: 0;
+    /* background-color: #754b24; */
+}
+
+#ongs .sla7{
+    font-family:sans-serif;
+    margin: 25px;
+    margin-top: 5%;
+    text-align: justify;
+    color: #e5c486;
+    padding: 10px;
+    display: block;
+}
+#ongs{
+    display: flex;
+    align-items: center;
+}
+
+#ongs .sla8{
+    font-family:sans-serif;
+    margin: 25px;
+    margin-top: 5%;
+    text-align: justify;
+    color: #e5c486;
+}
+
+.ong1{
+    background-color: #754b24;
+    height: 40%;
+    width: 70%;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 15%;
+}
+.ong2{
+    background-color: #754b24;
+    height: 40%;
+    width: 70%;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 15%;
+}
+.ong3{
+    background-color: #754b24;
+    height: 40%;
+    width: 70%;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 15%;
+}
+.ong4{
+    background-color: #754b24;
+    height: 40%;
+    width: 70%;
+    border-radius: 20px;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.ong1{
+    margin-bottom: 3%;
+}
+
+.ong3{
+    margin-bottom: 3%;
+}
+
+#text{
+    display: flex;
+    align-items: center;
+}
+
+.texto2{
+    text-align: center;
+}
+
+ .adopt11{
+    width: 300px;
+    height: 164px;
+}
+.adopt12{
+    width: 300px;
+    height: 164px;
+}
+
+.adopt13 img{
+    width: 300px;
+    height: 164px;
+}
+
+.adopt14 img{
+    width: 300px;
+    height: 164px;
+}
+
+.sla9 .sla10{
+    display: block;
+} 
+
+
+
+/* -----------------Nalanda-------------------- */
+
+.cta-button{
+    margin-top: 30px;
+    background-color: #f6bb8b;
+    color: #000000;
+    padding: 15px 30px;
+    font-size: 18px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(237, 222, 159, 0.455);
+    transition:background-color 1s ease,transform 1s ease;
+}
+
+
+.sobrenos nav{
+    list-style-type: none;
+    text-align: left;
+    display: block;
+}
+.sobrenos nav ul{
+    display: block;
+}
+.sobrenos nav ul li{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.sobrenos nav ul li a{
+    color: #754b24;
+}
+footer{
+    background-color: #e5c486;
+    width: 100%;
+    height: 40vh;
+   position: bottom;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    margin-bottom: 0;
+    }
+
+
+    .titulofooter{
+        text-align: left;
+        padding-top: 5%;
+        margin-left: 5%;
+
+    }
+
+    h3{
+        font-size: 2.5rem;
+        font-family: titulo;
+        color:  #311800;
+    }
+
+    .titulofooter p{
+        font-size: 14px;
+        margin-top: 0;
+        font-family: titulo;
+        color:#754b24
+
+    }
+    .contatos{
+        text-align: left;
+        margin-left: 5%;
+        font-family: titulo;
+        color: #754b24;
+    }
+    .contatos ul{
+        display: block;
+        padding-top: 20px;
+        list-style-type: none;
+    }
+
+    .contatos ul li{
+        list-style-type: none;
+        text-decoration: none;
+        padding: 5px;
+        font-size: 16px;
+
+    }
+
+    .sumario{
+        margin-left: 5%;
+    }
+    .sumario nav ul {
+        display: block;
+    }
+
+    .sumario nav ul li{
+        list-style-type: none;
+        text-decoration: none;
+        font-size: 16px;
+        text-align: left;
+        margin-left: 5%;
+        font-family: titulo;
+        color: #754b24;
+    }
+
+
+
+
+
+
+
+/* --------------------Dark Theme-------------- */
+
+.dark-theme{
+    background-color: #754b24f4;
+}
+
+.dark-theme h1{
+    color: #e5c486;
+}
+
+.dark-theme .information1{
+    background-color: #e5c486;
+}
+
+.dark-theme footer{
+    background-color: #e5c486;
+}
